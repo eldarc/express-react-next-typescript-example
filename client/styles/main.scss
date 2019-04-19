@@ -1,0 +1,19 @@
+// Load fonts.
+// @import "fonts/feather/feather.css";
+// @import "fonts/icons/icons.css";
+
+// Theme
+// For more customization copy the theme files here to the `styles` folder in the directory `theme`.
+@import '~startbootstrap-sb-admin-2/scss/sb-admin-2';
+
+// Bootstrap
+@import 'bootstrap-core';
+
+// Variables
+@import 'variables';
+
+// Load dependencies.
+// @import '~flatpickr/dist/flatpickr.css';
+
+// Custom styles
+@import 'custom-styles';

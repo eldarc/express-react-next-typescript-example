@@ -1,0 +1,20 @@
+.DS_Store
+node_modules
+.next
+dist
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+#.idea
+.idea/workspace.xml
+.idea/vcs.xml
+#.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*

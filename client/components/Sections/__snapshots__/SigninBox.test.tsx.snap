@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SigninBox renders correctly 1`] = `
+<div
+  className="jsx-1458856846 signin-box w-100"
+>
+  <div
+    className="jsx-1458856846 row"
+  >
+    <div
+      className="jsx-1458856846 col-12 text-center mb-3"
+    >
+      <h1
+        className="jsx-1458856846"
+      >
+        Sign in
+      </h1>
+    </div>
+    <div
+      className="jsx-1458856846 col-12 text-center mb-3"
+    >
+      <span
+        className="jsx-1458856846"
+      >
+        Don't have an account? 
+        <a
+          className="jsx-1458856846"
+          href="#"
+          onClick={[Function]}
+        >
+          Sign up here
+        </a>
+      </span>
+    </div>
+    <div
+      className="jsx-1458856846 col-12"
+    >
+      <form
+        className=""
+        onSubmit={[Function]}
+      >
+        <div
+          className="form-group"
+        >
+          <label
+            className=""
+            htmlFor="username"
+          >
+            Username
+          </label>
+          <input
+            className="form-control"
+            id="username"
+            name="username"
+            placeholder="Please enter your username"
+            type="text"
+          />
+        </div>
+        <div
+          className="form-group"
+        >
+          <label
+            className=""
+            htmlFor="password"
+          >
+            Password
+          </label>
+          <input
+            className="form-control"
+            id="password"
+            name="password"
+            placeholder="Please enter your password"
+            type="password"
+          />
+        </div>
+        <div
+          className="jsx-1458856846 d-flex w-100 justify-content-center"
+        >
+          <button
+            aria-label={null}
+            className="btn btn-primary"
+            onClick={[Function]}
+            type="submit"
+          >
+            Sign in
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;

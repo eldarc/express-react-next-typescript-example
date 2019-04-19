@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "preserve",
+    "lib": ["dom", "es2017"],
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["*"],
+      "@api/*": ["services/api/*"]
+    },
+    "allowJs": true,
+    "noEmit": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "exclude": [
+      "node_modules",
+      "**/*.js",
+      "**/*.spec.ts",
+      "**/*.spec.tsx",
+      "**/*.test.ts",
+      "**/*.test.tsx"
+    ]
+  }
+}

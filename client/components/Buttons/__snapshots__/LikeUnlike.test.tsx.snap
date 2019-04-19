@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LikeUnlike renders correctly like mode 1`] = `
+<button
+  aria-label={null}
+  className="like-unlike-btn btn btn-success btn-sm"
+  onClick={[Function]}
+  type="button"
+>
+  Like
+</button>
+`;
+
+exports[`LikeUnlike renders correctly unlike mode 1`] = `
+<button
+  aria-label={null}
+  className="like-unlike-btn btn btn-danger btn-sm"
+  onClick={[Function]}
+  type="button"
+>
+  Unlike
+</button>
+`;

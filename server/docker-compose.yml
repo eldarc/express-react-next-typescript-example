@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  mongo:
+    image: mongo
+    expose:
+      - 27017
+    volumes:
+      - ./.data/db:/data/db
+
+networks:
+  default:
+    external:
+      name: localnet

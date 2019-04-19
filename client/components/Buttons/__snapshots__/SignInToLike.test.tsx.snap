@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignInToLike renders correctly 1`] = `
+<button
+  aria-label={null}
+  className="signin-to-like-btn btn btn-primary btn-sm"
+  onClick={[Function]}
+  type="button"
+>
+  Sign in to like
+</button>
+`;
