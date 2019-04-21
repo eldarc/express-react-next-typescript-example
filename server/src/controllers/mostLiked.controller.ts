@@ -21,7 +21,7 @@ class MostLikedController {
           }
         },
         {
-          $sort: { likes: -1 }
+          $sort: { numberOfLikes: -1 }
         }
       ])
 
