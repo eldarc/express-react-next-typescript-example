@@ -1,12 +1,11 @@
-# Next.js example
+# Example - TypeScript Next.js App
+## Getting started
+- Clone this repo.
+- `yarn install` to install all required dependencies
+- `yarn run dev` to start the local server.
+- `yarn run test` to run tests.
 
-This is a project that show the usage of Next.js with TypeScript.
-
-## How to use it?
-
-Install it and run:
-
-```bash
-yarn
-yarn dev
-```
+### Dockerfile
+- To build use provided script: `./docker-build.sh`
+- To run use the provided script: `./docker-run.sh`
+- For now, Dockerfile is only for deployment purposes. There are currently no configurations set up for local development with Docker.
