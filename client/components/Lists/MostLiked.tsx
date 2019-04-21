@@ -13,8 +13,8 @@ interface IState {
 }
 
 // ~~~ Components ~~~
-import SingInToLike from '@/components/buttons/SignInToLike'
-import LikeUnlike from '@/components/buttons/LikeUnlike'
+import SingInToLike from '@/components/Buttons/SignInToLike'
+import LikeUnlike from '@/components/Buttons/LikeUnlike'
 
 // ~~~ Component ~~~
 @inject('store')
